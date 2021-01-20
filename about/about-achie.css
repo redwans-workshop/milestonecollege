@@ -1,0 +1,22 @@
+
+/* ====----active sub page-----=========== */
+.about1,.about2,.about3,.about5{
+	background: rgba(34, 112, 147, .85);
+}
+.about4{
+	background: rgba(179, 57, 57,1.0);
+}
+.footer{
+	bottom: -1050px;
+}
+/* -------------------------------------- */
+
+.achie h3{
+	text-align:center; 
+	padding: 30px;
+	font-size: 30px;
+	color: #353b48;
+}
+.achie hr{
+	width: 30%;
+}

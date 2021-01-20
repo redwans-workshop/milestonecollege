@@ -1,0 +1,287 @@
+body{
+	margin: 0;
+		background-image: url("img/login-back.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+}
+.nav{
+	/* background:black; */
+	height: 45px;
+	overflow:hidden;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	
+}
+.menu ul{
+	font-color: red;
+}
+.nav .logo{
+	background-color: rgba(34, 112, 147, .85);
+	width:30%;
+	height: inherit;
+	float:left;
+	
+}
+.logo font{
+	font-family: Trajan Pro;
+	margin-left: 125px;
+	font-size: 25px;
+	font-weight: 900;
+	position: relative;
+	top: 6.5px;
+	color: #f1f2f6;
+}
+.logo font a{
+	text-decoration: none;
+	color: #f1f2f6;
+	outline: 0;
+}
+.nav .menu{
+	background-color: rgba(34, 112, 147, .75);
+	width:70%;
+	height: inherit;
+	float:right;
+}
+.menu ul li{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 10px 15px;
+	min-width: 104px;
+	text-align: center;
+	position: relative;
+	top: -16px;
+	margin-right: 3px;
+	
+}
+/* -------active page------------- */
+.menu ul li:nth-child(9){
+	background-color: rgba(179, 57, 57,.8);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* ------------------------------------- */
+.menu ul li a{
+	text-decoration: none;
+	font-family: Minion Pro;
+	color: white;
+	outline: 0;
+}
+.menu ul li:hover{
+	background-color: #2c2c54;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+/* ================notice============== */
+
+.notice{
+	position: absolute;
+	width: 100%;
+}
+/* .notice-left{ */
+	/* width:0%; */
+	/* float: left; */
+	/* margin-right: 0px; */
+	/* background-color: #227093; */
+	/* height: 82px; */
+/* } */
+/* .notice-left h1{ */
+	/* margin-top: 47px; */
+	/* color: white; */
+	/* font-size: 30px; */
+	/* padding-left: 30px; */
+	/* padding-right: 7px; */
+	/* margin-bottom: 0px; */
+	
+/* } */
+.notice-right{
+	margin-left: 0px;
+	background-color:rgba(25, 42, 86,.7); 
+	margin-top: 45.5px;
+
+}
+.notice-right marquee{
+	
+	font-size: 25px;
+	color: red;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	
+}
+
+/* ==================================social================= */
+
+.social{
+	background: rgba(179, 57, 57,.80);
+	height: 250px;
+	width: 50px;
+	position: fixed;
+	left: 5px;
+	top: 15%;
+	z-index: 2;
+	border-radius: 7px;
+	transition: 1s;
+}
+.social:hover{
+	background: rgba(179, 57, 57,1.0);
+	transition: 1s;
+	transform: scale(1.2);
+	
+}
+.social i{
+	padding: 10px 5px 10px 11px;
+	margin-top: 25px;
+	color: white;
+	transition: 2s;
+}
+.social i:hover{
+	color: black;
+	transform: scale(1.3);
+	transition: 2s;
+}
+.social a{
+	text-decoration: none;
+	outline: 0;
+}
+
+
+/* <!-- =================================== content box ========================================== --> */
+
+.box-about{
+	height:500px;
+	background-color: rgba(255, 255, 255,.8);
+	/* background-image: url("login-back.jpg"); */
+	/* background-size: cover; */
+	width: 25%;
+	position: absolute;
+	left: 37.5%;
+	top: 30%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+	
+}
+
+
+/* =============================================================================== */
+
+
+/* ========================================**********************=================================== */
+.spacer{
+	height: 100px;
+}
+.about-c1 h3{
+	text-align: center;
+	padding-top: 10px;
+	letter-spacing: 4px;
+	font-size: 20px;
+	color: rgba(25, 42, 86,1.0);
+}
+.about-c1 hr{
+	width: 90%;
+}
+
+.spacer5{
+	height: 5px;
+}
+
+.about-c1 form{
+	padding: 20px;
+	position: absolute;
+	top: 30%;
+	left: 12%;
+
+}
+.about-c1 input{
+	width: 300px;
+	padding: 8px;
+	border-radius: 3px;
+	border: .5px solid black;
+}
+label{
+	color: #353b48;
+
+}
+.about-c1 button{
+	padding: 5px;
+	outline: 0;
+	background: #353b48;
+	color: white;
+	border: none;
+	width: 80px;
+	font-size: 16px;
+}
+.about-c1 button:hover{
+	background: white;
+	color: #353b48;
+	cursor: pointer;
+}
+.about-c1 a{
+	color: #353b48;
+	padding-right: 10px;
+	text-decoration: none;
+}
+.about-c1 a:hover{
+	color: red;
+}
+
+
+
+
+
+
+/* =========================================================================================== */
+/* ==============================footer====================== */
+.footer{
+	background-color: #227093;
+	height: 200px;
+	position: relative;
+	bottom: -280px;
+	left: 0px;
+}
+.f-content{
+	position: absolute;
+	overflow: hidden;
+	width: 60%;
+	left: 20%;
+	font-family: Corbel;
+	padding-top: 20px;
+}
+.imp-links{
+	width: 33.5%;
+	margin-right: .5%;
+	float: left;
+}
+.imp-links b, .f-contact b{
+	color: white;
+	font-size: 20px;
+}
+.imp-links hr, .f-contact hr{
+	color: white;
+}
+.imp-links a{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+}
+.imp-links a:hover{
+	color: red;
+}
+.f-contact{
+	width: 25.5%;
+	margin-left: .5%;
+	float: right;
+}
+.f-contact p{
+	color: white;
+}
+
+
+
+
+

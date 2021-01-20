@@ -1,0 +1,292 @@
+body{
+	margin: 0;
+}
+.nav{
+	/* background:black; */
+	height: 45px;
+	overflow:hidden;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	
+}
+.menu ul{
+	font-color: red;
+}
+.nav .logo{
+	background-color: rgba(34, 112, 147, .85);
+	width:30%;
+	height: inherit;
+	float:left;
+	
+}
+.logo font{
+	font-family: Trajan Pro;
+	margin-left: 125px;
+	font-size: 25px;
+	font-weight: 900;
+	position: relative;
+	top: 6.5px;
+	color: #f1f2f6;
+}
+.logo font a{
+	text-decoration: none;
+	color: #f1f2f6;
+	outline: 0;
+}
+.nav .menu{
+	background-color: rgba(34, 112, 147, .75);
+	width:70%;
+	height: inherit;
+	float:right;
+}
+.menu ul li{
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 10px 15px;
+	min-width: 104px;
+	text-align: center;
+	position: relative;
+	top: -16px;
+	margin-right: 3px;
+	
+}
+/* -------active page------------- */
+.menu ul li:nth-child(2){
+	background-color: rgba(179, 57, 57,.8);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* ------------------------------------- */
+.menu ul li a{
+	text-decoration: none;
+	font-family: Minion Pro;
+	color: white;
+	outline: 0;
+}
+.menu ul li:hover{
+	background-color: #2c2c54;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+/* ================notice============== */
+
+.notice{
+	position: absolute;
+	width: 100%;
+}
+/* .notice-left{ */
+	/* width:0%; */
+	/* float: left; */
+	/* margin-right: 0px; */
+	/* background-color: #227093; */
+	/* height: 82px; */
+/* } */
+/* .notice-left h1{ */
+	/* margin-top: 47px; */
+	/* color: white; */
+	/* font-size: 30px; */
+	/* padding-left: 30px; */
+	/* padding-right: 7px; */
+	/* margin-bottom: 0px; */
+	
+/* } */
+.notice-right{
+	margin-left: 0px;
+	background-color:rgba(25, 42, 86,.7); 
+	margin-top: 45.5px;
+
+}
+.notice-right marquee{
+	
+	font-size: 25px;
+	color: red;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	
+}
+
+/* ==================================social================= */
+
+.social{
+	background: rgba(179, 57, 57,.80);
+	height: 250px;
+	width: 50px;
+	position: fixed;
+	left: 5px;
+	top: 15%;
+	z-index: 2;
+	border-radius: 7px;
+	transition: 1s;
+}
+.social:hover{
+	background: rgba(179, 57, 57,1.0);
+	transition: 1s;
+	transform: scale(1.2);
+	
+}
+.social i{
+	padding: 10px 5px 10px 11px;
+	margin-top: 25px;
+	color: white;
+	transition: 2s;
+}
+.social i:hover{
+	color: black;
+	transform: scale(1.3);
+	transition: 2s;
+}
+.social a{
+	text-decoration: none;
+	outline: 0;
+}
+
+
+/* <!-- =================================== ******************========================================== --> */
+
+.box-about{
+	/* height: 1000px; */
+	width: 60%;
+	position: absolute;
+	left: 20%;
+	top: 10%;
+	background:rgba(245, 246, 250,1.0);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* ==============================sub menu============================ */
+.about-sub{
+	width: 100%;
+	background: rgba(34, 112, 147, .85); /* rgba(0, 151, 230,1.0); */
+	/* height: 50px; */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px 5px 0 0;
+}
+.about-sub a{
+	text-decoration: none;
+	color: white;
+	outline: 0;
+	font-size: 20px;
+	font-family: Minion Pro;
+	text-align: center;
+}
+.about1, .about2, .about3, .about4, .about5{
+	background: rgba(34, 112, 147, .85);/* rgba(0, 151, 230,1.0); */
+	height: inherit;
+	width: 20%;
+}
+.about1{
+	border-radius: 5px 0 0 0;
+}
+.about5{
+	border-radius: 0 5px 0 0;
+}
+.about1 button, .about2 button, .about3 button, .about4 button, .about5 button{
+	background: rgba(0, 151, 230,.0);
+	border: none;
+	padding:10px;
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+}
+.about1:hover, .about2:hover, .about3:hover, .about4:hover, .about5:hover{
+	background: #2c2c54;
+}
+.fl{
+	float: left;
+}
+
+/* ====----active sub page-----=========== */
+.about1{
+	background: rgba(179, 57, 57,1.0);
+}
+/* -------------------------------------- */
+
+
+.about-c1,.about-c2,.about-c3,.about-c4,.about-c5{
+	clear: both;
+}
+.about-c1 h2,.about-c2 h2,.about-c3 h2,.about-c4 h2,.about-c5 h2{
+	text-align: center;
+	padding-top: 30px;
+	letter-spacing: 4px;
+	font-size: 40px;
+	color: rgba(25, 42, 86,1.0);
+}
+.about-c1 hr,.about-c2 hr,.about-c3 hr,.about-c4 hr,.about-c5 hr {
+	width: 90%;
+}
+.about-c1 img{
+	margin-left: 18%;
+}
+#h1{
+	margin-top: 20px;
+}
+.about-c1 p{
+	margin: 30px;
+	color: #353b48;
+}
+
+
+
+
+
+
+
+/* ===========================================*****************************==================================== */
+
+/* ==============================footer====================== */
+.footer{
+	background-color: #227093;
+	height: 200px;
+	position: relative;
+	bottom: -1850px;
+	left: 0px;
+}
+.f-content{
+	position: absolute;
+	overflow: hidden;
+	width: 60%;
+	left: 20%;
+	font-family: Corbel;
+	padding-top: 20px;
+}
+.imp-links{
+	width: 33.5%;
+	margin-right: .5%;
+	float: left;
+}
+.imp-links b, .f-contact b{
+	color: white;
+	font-size: 20px;
+}
+.imp-links hr, .f-contact hr{
+	color: white;
+}
+.imp-links a{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+}
+.imp-links a:hover{
+	color: red;
+}
+.f-contact{
+	width: 25.5%;
+	margin-left: .5%;
+	float: right;
+}
+.f-contact p{
+	color: white;
+}
+
+
+
+
+

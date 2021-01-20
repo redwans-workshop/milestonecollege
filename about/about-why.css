@@ -1,0 +1,23 @@
+
+/* ====----active sub page-----=========== */
+.about1,.about2,.about4,.about3{
+	background: rgba(34, 112, 147, .85);
+}
+.about5{
+	background: rgba(179, 57, 57,1.0);
+}
+.footer{
+	bottom: -1050px;
+}
+/* -------------------------------------- */
+
+.about-c5 table{
+	border: 1px solid black;
+	padding: 25px;
+	margin: 50px;
+	color: #353b48;
+}
+.spacer{
+	width: 100%;
+	height: 70px;
+}

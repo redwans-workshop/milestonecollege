@@ -1,0 +1,90 @@
+.about1{
+	background: rgba(0, 151, 230,1.0);
+	height: inherit;
+	width: 20%;
+	border-radius: 5px 0 0 0;
+}
+.about1 button{
+	background: rgba(0, 151, 230,.0);
+	border: none;
+	padding:10px;
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+}
+.about1:hover{
+	background: #2c2c54;
+}
+/* ----------b2------------ */
+.about2{
+	background: rgba(0, 151, 230,1.0);
+	height: inherit;
+	width: 20%;
+}
+.about2 button{
+	background: rgba(0, 151, 230,.0);
+	border: none;
+	padding:10px;
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+}
+.about2:hover{
+	/* background: rgba(179, 57, 57,1.0); */
+	background: #2c2c54;
+}
+/* ---------------b3------------- */
+.about3{
+	background: rgba(0, 151, 230,1.0);
+	height: inherit;
+	width: 20%;
+}
+.about3 button{
+	background: rgba(0, 151, 230,.0);
+	border: none;
+	padding:10px;
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+}
+.about3:hover{
+	/* background: rgba(179, 57, 57,1.0); */
+	background: #2c2c54;
+}
+/* ----------------b4---------------- */
+.about4{
+	background: rgba(0, 151, 230,1.0);
+	height: inherit;
+	width: 20%;
+}
+.about4 button{
+	background: rgba(0, 151, 230,.0);
+	border: none;
+	padding:10px;
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+}
+.about4:hover{
+	/* background: rgba(179, 57, 57,1.0); */
+	background: #2c2c54;
+}
+/* ------------------b5-------------------- */
+.about5{
+	background: rgba(0, 151, 230,1.0);
+	height: inherit;
+	width: 20%;
+	border-radius: 0 5px 0 0;
+}
+.about5 button{
+	background: rgba(0, 151, 230,.0);
+	border: none;
+	padding:10px;
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+}
+.about5:hover{
+	/* background: rgba(179, 57, 57,1.0); */
+	background: #2c2c54;
+}

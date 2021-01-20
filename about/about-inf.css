@@ -1,0 +1,27 @@
+
+/* ====----active sub page-----=========== */
+.about1,.about3,.about4,.about5{
+	background: rgba(34, 112, 147, .85);
+}
+.about2{
+	background: rgba(179, 57, 57,1.0);
+}
+/* -------------------------------------- */
+
+
+.about-c2 h3, .about-c2 img,.about-c2 p{
+	margin-left: 18%;
+}
+.about-c2 p{
+	margin-right: 18%;
+	color: #353b48;
+}
+#map{
+	margin-left: 25%;
+}
+
+
+/* ============foooter============ */
+.footer{
+	bottom: -4100px;
+}

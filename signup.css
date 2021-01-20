@@ -1,0 +1,16 @@
+.about-c1 label{
+	display: inline-block;
+}
+.about-c1 form{
+	top: 15%;
+}
+.box-about{
+	height:700px;
+	top: 20%;
+}
+.footer{
+	bottom: -230px;
+}
+.about-c1 a{
+	padding-left: 70px;
+}

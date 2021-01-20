@@ -1,0 +1,110 @@
+
+		
+		
+		<div class="club">
+			<div class="club-h c1" id="c1">
+				<h3>Computer Club</h3>
+			</div>
+			<div class="club-c cc1">
+				<div class="spacer2"></div>
+				<h4>Officer in Charge: Md. Shofiul Azam (Assistant Professor)</h4>
+				<hr />
+				<p>Two enriched and modern computer labs help the members of the society to get introduced with different programmes, web page making, function of computing. Hi-speed internet connection has given the students extra facilities to roam in the internet world and to get introduced with different educational web pages and blogs.</p>
+				<div class="spacer2"></div>
+			</div>
+			<div class="club-h c2">
+				<h3>Computer Club</h3>
+			</div>
+			<div class="club-c cc2">
+				<div class="spacer2"></div>
+				<h4>Officer in Charge: Md. Shofiul Azam (Assistant Professor)</h4>
+				<hr />
+				<p>Two enriched and modern computer labs help the members of the society to get introduced with different programmes, web page making, function of computing. Hi-speed internet connection has given the students extra facilities to roam in the internet world and to get introduced with different educational web pages and blogs.</p>
+				<div class="spacer2"></div>
+			</div>
+			<div class="club-h c3">
+				<h3>Computer Club</h3>
+			</div>
+			<div class="club-c cc3">
+				<div class="spacer2"></div>
+				<h4>Officer in Charge: Md. Shofiul Azam (Assistant Professor)</h4>
+				<hr />
+				<p>Two enriched and modern computer labs help the members of the society to get introduced with different programmes, web page making, function of computing. Hi-speed internet connection has given the students extra facilities to roam in the internet world and to get introduced with different educational web pages and blogs.</p>
+				<div class="spacer2"></div>
+			</div>
+			<div class="club-h c4">
+				<h3>Computer Club</h3>
+			</div>
+			<div class="club-c cc4">
+				<div class="spacer2"></div>
+				<h4>Officer in Charge: Md. Shofiul Azam (Assistant Professor)</h4>
+				<hr />
+				<p>Two enriched and modern computer labs help the members of the society to get introduced with different programmes, web page making, function of computing. Hi-speed internet connection has given the students extra facilities to roam in the internet world and to get introduced with different educational web pages and blogs.</p>
+				<div class="spacer2"></div>
+			</div>
+		
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .club-h{ */
+	/* width: 65%; */
+	/* /* height: 50px; */ 
+	/* background: rgba(34, 112, 147, 1.0); */
+	/* margin: 10px 17.5% 0px 17.5%; */
+	/* border-radius: 5px 5px 0 0; */
+/* } */
+/* .club-c{ */
+	/* width: 65%; */
+	/* background: #dcdde1; */
+	/* margin: -20px 17.5% 10px 17.5%; */
+	/* border-radius: 0 0 5px 5px; */
+	/* display: none; */
+/* } */
+/* .c1 h3,.c2 h3,.c3 h3,.c4 h3{ */
+	/* color: white; */
+	/* padding: 10px; */
+	/* text-align: center; */
+/* } */
+/* .cc1 h4,.cc2 h4,.cc3 h4,.cc4 h4{ */
+	/* padding: 5px; */
+	/* letter-spacing: 2px; */
+	/* text-align: center; */
+/* } */
+/* .cc1 p,.cc2 p,.cc2 p,.cc2 p{ */
+	/* padding: 2px; */
+	/* letter-spacing: 2px; */
+	/* text-align: center; */
+/* } */
+/* .spacer2{ */
+	/* height: 10px; */
+/* } */
+
+/* /* ========hover effects======== */
+/* .c1:hover,.c2:hover,.c3:hover,.c4:hover{ */
+	/* border-radius: 5px 5px 0 0; */
+	/* background: #2c2c54; */
+/* } */
+/* .c1:hover + .cc1,.c2:hover + .cc2,.c3:hover + .cc3,.c4:hover + .cc4{ */
+	/* display: block; */
+	
+/* } */
+/* .cc1:hover,.cc2:hover,.cc3:hover,.cc4:hover{ */
+	/* display: block; */
+/* } */
