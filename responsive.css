@@ -1,0 +1,25 @@
+@media all and (max-width: 1630px){
+	.header{
+		height: 640px;
+	}
+	.nav{
+		height: 110px;
+	}
+	.menu ul li{
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+	.logo font{
+		margin-top: 50px;
+	}
+
+	.wellcome{
+		height: 620px;
+	}
+	.slideshow-container {
+		top: 5px;
+	}
+	.notice-right{
+		margin-top: 112px;
+	}
+}
